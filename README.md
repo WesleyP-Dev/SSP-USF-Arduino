@@ -27,7 +27,7 @@ O SSP opera com quatro estados principais:
 
 - **Arduino** (modelo compatível com as bibliotecas básicas).  
 - **Sensores**:  
-  - Sensor de presença ou falha (conectado ao `pinSensor`).  
+  - Sensor de presença (conectado ao `pinSensor`).  
 - **Atuadores**:  
   - Motor (controlado pelo `pinMotor`).  
   - Buzzer (conectado ao `pinBuzzer`).  
@@ -38,10 +38,6 @@ O SSP opera com quatro estados principais:
 - **Botões**:  
   - Botão de reset (`pinReset`).  
   - Botão de iniciar (`pinRun`).
-
-## 📄 **Código**
-
-O código implementa a lógica de controle de estados mencionada acima. Ele utiliza portas digitais para monitorar os sensores e controlar os atuadores. O monitor serial exibe mensagens de depuração para indicar o estado atual do sistema.
 
 ## 🚀 **Como Utilizar**
 
